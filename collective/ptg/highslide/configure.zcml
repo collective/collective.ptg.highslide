@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.ptg.highslide">
+
+    <browser:resourceDirectory
+        name="ptg.highslide"
+        directory="resources"
+        />
+
+    <adapter
+        for="collective.plonetruegallery.interfaces.IGallery"
+        provides=".IHighSlideDisplaySettings"
+        factory=".HighSlideSettings" />
+
+    <browser:page
+        for="collective.plonetruegallery.interfaces.IGallery"
+        name="galleryview-highslide"
+        class=".HighSlideDisplayType"
+        template="highslide.pt"
+        permission="zope2.View" />
+
+    <utility
+        component=".HighSlideDisplayType"
+        provides="collective.plonetruegallery.interfaces.IDisplayType"
+        name="galleryview-highslide" />
+
+</configure>
