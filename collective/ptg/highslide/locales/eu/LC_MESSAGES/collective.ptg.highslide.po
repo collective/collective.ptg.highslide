@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: collective.plonetruegallery\n"
+"POT-Creation-Date: 2012-07-10 13:16+0000\n"
+"PO-Revision-Date: 2012-06-19 09:36+0100\n"
+"Last-Translator: Mikel Larreategi <mlarreategi@codesyntax.com>\n"
+"Language-Team: eu <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+"X-Poedit-Language: Basque\n"
+
+#. Default: "The style of the border around the image. "
+#: ./__init__.py:32
+msgid "description_highslide_outlineType"
+msgstr "Irudiaren inguruko marraren itxura"
+
+#. Default: "Choose the position of the slideshow controls. "
+#: ./__init__.py:15
+msgid "description_highslide_slideshowcontrols_position"
+msgstr "Galeriaren kontrolaren posizioa"
+
+#. Default: "Highslide - verify terms of use"
+#: ./__init__.py:57
+msgid "label_highslide_display_type"
+msgstr "Highslide - ikusi erabilpen-baldintzak"
+
+#. Default: "Image outline type"
+#: ./__init__.py:31
+msgid "label_highslide_outlineType"
+msgstr "Kanpoko marraren itxura"
+
+#. Default: "Drop Shadow"
+#: ./__init__.py:44
+msgid "label_highslide_outlineType_drop_shadow"
+msgstr "Itzala kendu"
+
+#. Default: "Glossy Dark"
+#: ./__init__.py:47
+msgid "label_highslide_outlineType_glossy_dark"
+msgstr "Iluna"
+
+#. Default: "Outer Glow"
+#: ./__init__.py:41
+msgid "label_highslide_outlineType_outer_glow"
+msgstr "Kanpoko dirdinra"
+
+#. Default: "Rounded White"
+#: ./__init__.py:38
+msgid "label_highslide_outlineType_rounded_white"
+msgstr "Biribildu-zuria"
+
+#. Default: "bottom"
+#: ./__init__.py:27
+msgid "label_highslide_slideshowcontrols_position_bottom"
+msgstr "Behean"
+
+#. Default: "middle"
+#: ./__init__.py:24
+msgid "label_highslide_slideshowcontrols_position_middle"
+msgstr "Erdian"
+
+#. Default: "top"
+#: ./__init__.py:21
+msgid "label_highslide_slideshowcontrols_position_top"
+msgstr "Gainean"
+
+#. Default: "You can only use the Highslide gallery for non-commercial use unless you purchase a commercial license. Please visit http://highslide.com/ for details."
+#: ./__init__.py:59
+msgid "label_highslide_user_warning"
+msgstr "Highslide erabilpen ez-komertzialerako bakarrik erabil dezakezu lizentzia bat erosten ez duzun artean. Ikusi http://highslide.com/ informazio gehiagorako."
+
+#. Default: "Highslide controls position"
+#: ./__init__.py:13
+msgid "lable_highslide_slideshowcontrols_position"
+msgstr ""
+
