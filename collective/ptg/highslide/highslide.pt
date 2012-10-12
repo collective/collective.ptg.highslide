@@ -2,12 +2,13 @@
      tal:define="batch view/batch;">
   <p>
     <span tal:repeat="image batch">
-      <a class="highslide" rel="group" onclick="return hs.expand(this)"
-         tal:attributes="title string:${image/title} - ${image/description};
-                         href image/image_url;">
-        <img tal:attributes="src image/thumb_url; 
-                             alt string:${image/title} - ${image/description}" />
-      </a>
+      <tal:copydesc define="strg python: (('&nbsp;&ndash;&nbsp;' + image['description']) if image['description'] else '') +
+          (('&nbsp;&ndash;&nbsp;&copy;' + image['copyright']) if image['copyright'] else '') ">
+         <a class="highslide" rel="group" onclick="return hs.expand(this)"
+             tal:attributes="title string:${image/title}${strg}; href image/image_url;">
+             <img tal:attributes="src image/thumb_url; alt string: ${image/title} ${strg}" />
+         </a>
+      </tal:copydesc>
       <span class="highslide-heading">
         <a href="image" tal:content="image/title" tal:attributes="href image/link">Image Title</a>
       </span>
