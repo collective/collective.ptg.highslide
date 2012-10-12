@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.1 (2012-10-12)
+----------------
+
+- add copyright information if present
+  [eehmke]
+
 1.0.3 (2012-07-24)
 ------------------
 
