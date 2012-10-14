@@ -6,7 +6,7 @@
         tal:define="copyright image/copyright|string:;
                     desc image/description|string:;
                     title python: '&nbsp;&ndash;&nbsp;' + desc if desc else desc;
-                    title python: '&nbsp;&ndash;&nbsp;&copy;' + copyright if copyright else title;">
+                    title python: title + '&nbsp;&ndash;&nbsp;&copy;' + copyright if copyright else title;">
          <a class="highslide" rel="group" onclick="return hs.expand(this)"
              tal:attributes="title string:${image/title}${title}; href image/image_url;">
              <img tal:attributes="src image/thumb_url; alt string: ${image/title} ${title}" />
