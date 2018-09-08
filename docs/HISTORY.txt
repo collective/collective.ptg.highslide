@@ -4,6 +4,8 @@ Changelog
 1.1.2 (unreleased)
 ------------------
 
+- Updated Spanish translation [macagua]
+
 - Updated Gettext files [macagua]
 
 1.1.1 (2012-10-14)
