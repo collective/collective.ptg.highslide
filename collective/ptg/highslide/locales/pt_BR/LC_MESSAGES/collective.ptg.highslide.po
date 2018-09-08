@@ -3,8 +3,8 @@
 # Rafahela Bazzanella <rafahela@gmail>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: collective.plonetruegallery\n"
-"POT-Creation-Date: 2012-07-10 13:16+0000\n"
+"Project-Id-Version: collective.ptg.highslide\n"
+"POT-Creation-Date: 2018-08-18 14:47+0000\n"
 "PO-Revision-Date: 2011-07-01 11:53-0300\n"
 "Last-Translator: Rafahela Bazzanella <rafahela@gmail.com>\n"
 "Language-Team: TcheZope.org <tchezope@yahoogroups.com>\n"
@@ -15,71 +15,70 @@ msgstr ""
 "Language-Code: pt-br\n"
 "Language-Name: Brazilian Portuguese\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.plonetruegallery\n"
+"Domain: collective.ptg.highslide\n"
 
 #. Default: "The style of the border around the image. "
-#: ./__init__.py:32
+#: ./__init__.py:33
 #, fuzzy
 msgid "description_highslide_outlineType"
 msgstr "Define o estilo da borda ao redor da imagem. (Tipo de exibição da galeria: Highslide)."
 
 #. Default: "Choose the position of the slideshow controls. "
-#: ./__init__.py:15
+#: ./__init__.py:16
 msgid "description_highslide_slideshowcontrols_position"
 msgstr ""
 
 #. Default: "Highslide - verify terms of use"
-#: ./__init__.py:57
+#: ./__init__.py:58
 msgid "label_highslide_display_type"
 msgstr "Highslide - verifique os termos de uso"
 
 #. Default: "Image outline type"
-#: ./__init__.py:31
+#: ./__init__.py:32
 msgid "label_highslide_outlineType"
 msgstr "Tipo de contorno da imagem"
 
 #. Default: "Drop Shadow"
-#: ./__init__.py:44
+#: ./__init__.py:45
 msgid "label_highslide_outlineType_drop_shadow"
 msgstr "Com sombra"
 
 #. Default: "Glossy Dark"
-#: ./__init__.py:47
+#: ./__init__.py:48
 msgid "label_highslide_outlineType_glossy_dark"
 msgstr "Linha escura"
 
 #. Default: "Outer Glow"
-#: ./__init__.py:41
+#: ./__init__.py:42
 msgid "label_highslide_outlineType_outer_glow"
 msgstr "Com brilho"
 
 #. Default: "Rounded White"
-#: ./__init__.py:38
+#: ./__init__.py:39
 msgid "label_highslide_outlineType_rounded_white"
 msgstr "Branca arredondada"
 
 #. Default: "bottom"
-#: ./__init__.py:27
+#: ./__init__.py:28
 msgid "label_highslide_slideshowcontrols_position_bottom"
 msgstr ""
 
 #. Default: "middle"
-#: ./__init__.py:24
+#: ./__init__.py:25
 msgid "label_highslide_slideshowcontrols_position_middle"
 msgstr ""
 
 #. Default: "top"
-#: ./__init__.py:21
+#: ./__init__.py:22
 msgid "label_highslide_slideshowcontrols_position_top"
 msgstr ""
 
 #. Default: "You can only use the Highslide gallery for non-commercial use unless you purchase a commercial license. Please visit http://highslide.com/ for details."
-#: ./__init__.py:59
+#: ./__init__.py:60
 msgid "label_highslide_user_warning"
 msgstr "A galeria Highslide só pode ser usada para usos não comerciais, a menos que um licença comercial seja comprada. Visite o site http://highslide.com/ para mais informações."
 
 #. Default: "Highslide controls position"
-#: ./__init__.py:13
+#: ./__init__.py:14
 msgid "lable_highslide_slideshowcontrols_position"
 msgstr ""
-

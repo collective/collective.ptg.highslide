@@ -1,8 +1,8 @@
 # Manually defined message ids
 msgid ""
 msgstr ""
-"Project-Id-Version: Truegallery VERSION\n"
-"POT-Creation-Date: 2012-07-10 13:16+0000\n"
+"Project-Id-Version: collective.ptg.highslide VERSION\n"
+"POT-Creation-Date: 2018-08-18 14:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -13,70 +13,69 @@ msgstr ""
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.plonetruegallery\n"
+"Domain: collective.ptg.highslide\n"
 
 #. Default: "The style of the border around the image. "
-#: ./__init__.py:32
+#: ./__init__.py:33
 msgid "description_highslide_outlineType"
 msgstr ""
 
 #. Default: "Choose the position of the slideshow controls. "
-#: ./__init__.py:15
+#: ./__init__.py:16
 msgid "description_highslide_slideshowcontrols_position"
 msgstr ""
 
 #. Default: "Highslide - verify terms of use"
-#: ./__init__.py:57
+#: ./__init__.py:58
 msgid "label_highslide_display_type"
 msgstr ""
 
 #. Default: "Image outline type"
-#: ./__init__.py:31
+#: ./__init__.py:32
 msgid "label_highslide_outlineType"
 msgstr ""
 
 #. Default: "Drop Shadow"
-#: ./__init__.py:44
+#: ./__init__.py:45
 msgid "label_highslide_outlineType_drop_shadow"
 msgstr ""
 
 #. Default: "Glossy Dark"
-#: ./__init__.py:47
+#: ./__init__.py:48
 msgid "label_highslide_outlineType_glossy_dark"
 msgstr ""
 
 #. Default: "Outer Glow"
-#: ./__init__.py:41
+#: ./__init__.py:42
 msgid "label_highslide_outlineType_outer_glow"
 msgstr ""
 
 #. Default: "Rounded White"
-#: ./__init__.py:38
+#: ./__init__.py:39
 msgid "label_highslide_outlineType_rounded_white"
 msgstr ""
 
 #. Default: "bottom"
-#: ./__init__.py:27
+#: ./__init__.py:28
 msgid "label_highslide_slideshowcontrols_position_bottom"
 msgstr ""
 
 #. Default: "middle"
-#: ./__init__.py:24
+#: ./__init__.py:25
 msgid "label_highslide_slideshowcontrols_position_middle"
 msgstr ""
 
 #. Default: "top"
-#: ./__init__.py:21
+#: ./__init__.py:22
 msgid "label_highslide_slideshowcontrols_position_top"
 msgstr ""
 
 #. Default: "You can only use the Highslide gallery for non-commercial use unless you purchase a commercial license. Please visit http://highslide.com/ for details."
-#: ./__init__.py:59
+#: ./__init__.py:60
 msgid "label_highslide_user_warning"
 msgstr ""
 
 #. Default: "Highslide controls position"
-#: ./__init__.py:13
+#: ./__init__.py:14
 msgid "lable_highslide_slideshowcontrols_position"
 msgstr ""
-
